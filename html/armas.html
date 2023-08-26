@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+   
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Css personalizado -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>CRUD HL</title>
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="armas.html">
+                        <div class="a-imagen">
+                            <img src="../assets/images/armas.webp" alt="">
+                        </div>
+                        <h2>Armas</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="criatura.html">
+                        <div class="a-imagen">
+                            <img src="../assets/images/criaturas.webp" alt="">
+                        </div>
+                        <h2>Criaturas</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="personajes.html">
+                        <div class="a-imagen">
+                            <img src="../assets/images/personajes.webp" alt="">
+                        </div>
+                        <h2>Personajes</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="videojuegos.html">
+                        <div class="a-imagen">
+                            <img src="../assets/images/videojuegos.webp" alt="">
+                        </div>
+                        <h2>Videojuegos</h2>
+                    </a>
+                </li>
+            </ul>
+           
+        </nav>
+    </header>
+
+
+    <section>
+        
+        <div class="middle">
+            <div class="container-tabla">
+                <button id="add">Nuevo</button>
+                <button id="reg">Regresar</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Armas</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                 
+                    </tbody>
+                </table>
+            </div>
+    
+           <!-- Info actual -->
+                <div class="container-informacion">
+    
+                
+    
+                    <div class="tarjeta-contenido">
+                        <form action="#" id="formGestionar" class="half-life">
+                            <div class="imagen-contenido">
+                                <img id="defecto" style="background-color: red;" src="../assets/images/gordon2.jpeg" alt="">
+                            </div>
+                            <!-- <div class="informacion">
+                                <h4>Nombre</h4>
+                                <p>damage: 25 </p>
+                                <p>primary: atack</p>
+                                <p>secondary: nothing</p>
+                                <p>juego: half life 1</p>
+                                <p>descripcion: </p>
+                                <p>Basic weapon</p>
+                            </div>
+                            <button type="submit" id="btnGestionar">gestionar</button> -->
+                            
+                        </form>
+                        
+                        
+                    </div>
+        
+                    
+                </div>
+        
+                <!-- FORMULARIO -->
+                <div class="container-tarjeta">
+        
+                    <div class="tarjeta-formulario">
+                        
+                            
+                        <form action="#" id="formulario">
+
+                            
+                            <div class="botones">
+                                <button type="submit" id="btnAgregar"><p>Agregar</p></button>
+                                <button type="submit" id="btnActualizar"><p>Actualizar</p></button>
+                                <button type="submit" id="btnLimpiar"><p>Limpiar</p></button>
+                                <button type="submit" id="btnEliminar"><p>Eliminar</p></button>
+                            </div>
+                            
+                            <label for="nombre"> <p>Nombre:</p> <input type="text" id="nombre" name="nombre" placeholder="Ingresa un nombre"> </label>
+                            
+                            
+                            <label for="damage"><p>damage:</p> <input type="text" id="damage" name="damage" placeholder="Ingresa el damage"></label>
+        
+                            <label for="primary"><p>primary: </p>    <input type="text" id="primary" name="primary" placeholder="Ingresa el primary"></label>
+        
+                            <label for="secondary"><p>secondary:</p><input type="text" id="secondary" name="secondary" placeholder="Ingresa el secondary"></label>
+        
+        
+        
+                            <label for="juego"><p>Juego:</p> <select name="juego" id="juego">
+                                <option value="Half life 1"><p>Half life 1</p></option>
+                                <option value="Half life 2"><p>Half life 2</p></option>
+                                <option value="Half life 3"><p>Half life 3</p></option>
+                            </select></label>
+        
+                            <label for="descripcion"><p>Descripcion: </p><textarea name="descripcion" id="descripcion" cols="25" rows="10" placeholder="Ingresa la descripcion"></textarea></label>
+        
+                            <label for="url"><p>url:</p> <input type="text" name="url" id="url" placeholder="https://www.ejemplo.com/imagen.jpg"></label>
+        
+                            <label for="imagen-cargada"><p>imagen</p><img id="imagen-cargada" src="" alt="imagen cargada"></label>
+                            
+        
+                        </form>
+        
+                        
+                    
+                    </div>
+        
+                    <div class="tarjeta-imagenes">
+                        <div class="imagenes">
+                            <ul id="lista-imagenes">
+                                
+                            </ul>
+                        </div>
+        
+                    </div>
+                </div>
+            
+        </div>
+        
+    </section>
+    
+    
+    
+    <script type="module" src="../scripts/script-arma.js" ></script>
+   
+</body>
+</html>
