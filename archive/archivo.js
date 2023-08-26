@@ -49,7 +49,7 @@ listaArmas.agregarArma(
     "zoom in",
     "Half life 1",
     "Sniper crossbow. Fires slow exploding arrows when unzoomed. When you zoom in you can use this gun as a regular sniper. Can be used underwater.",
-    "../images/armas/crossbow.png"
+    "../images/armas/crossbow.jpg"
   )
 );
 
