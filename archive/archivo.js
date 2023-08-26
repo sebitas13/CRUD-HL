@@ -16,7 +16,7 @@ listaArmas.agregarArma(
     "nothing",
     "Half life 1",
     "Basic weapon, useful on close distances",
-    "../images/armas/crowbar.webp"
+    "../assets/images/armas/crowbar.webp"
   )
 );
 listaArmas.agregarArma(
@@ -27,7 +27,7 @@ listaArmas.agregarArma(
     "fires faster but with less accuraccy",
     "Half life 1",
     "Default weapon. Try aim for the head with primary fire. It’s funcional underwater.",
-    "../images/armas/pistol.webp"
+    "../assets/images/armas/pistol.webp"
   )
 );
 listaArmas.agregarArma(
@@ -38,7 +38,7 @@ listaArmas.agregarArma(
     "fires two shots at once, deadly in close distance",
     "Half life 1",
     "Powerful weapon, especially in close distance.",
-    "../images/armas/shotgun.webp"
+    "../assets/images/armas/shotgun.webp"
   )
 );
 listaArmas.agregarArma(
@@ -49,7 +49,7 @@ listaArmas.agregarArma(
     "zoom in",
     "Half life 1",
     "Sniper crossbow. Fires slow exploding arrows when unzoomed. When you zoom in you can use this gun as a regular sniper. Can be used underwater.",
-    "../images/armas/crossbow.jpg"
+    "../assets/images/armas/crossbow.jpg"
   )
 );
 
@@ -62,7 +62,7 @@ listaArmas.agregarArma(
     "zoom in",
     "Half life 1",
     "It is better to fire unzoomed. It isn’t completely accurate even if you zoom in.",
-    "../images/armas/magnum.webp"
+    "../assets/images/armas/magnum.webp"
   )
 );
 
@@ -74,7 +74,7 @@ listaArmas.agregarArma(
     "throws grenade",
     "Half life 1",
     "If you pick up this weapon it isn’t fully loaded so it’s better to reaload immediatly.",
-    "../images/armas/mp5.webp"
+    "../assets/images/armas/mp5.webp"
   )
 );
 
@@ -86,7 +86,7 @@ listaArmas.agregarArma(
     "switch laser dot on or off",
     "Half life 1",
     "Fires guided rocket when laser is on, when is switched off rocket goes directly where you aimed. Can be used underwater.",
-    "../images/armas/rpg.jpg"
+    "../assets/images/armas/rpg.jpg"
   )
 );
 
@@ -98,7 +98,7 @@ listaArmas.agregarArma(
     "charges gauss for bigger damage and you can use it for flying.",
     "Half life 1",
     "Best weapon in game. You can shoot through walls with it. It will do area damage behind wall (this is called wallgauss). Can be used for flying, dodging or reaching higher places.",
-    "../images/armas/gauss.webp"
+    "../assets/images/armas/gauss.webp"
   )
 );
 
@@ -110,7 +110,7 @@ listaArmas.agregarArma(
     "nothing",
     "Half life 1",
     "Very powerful weapon, but many players considers it as a noob gun. Forbidden on my server.",
-    "../images/armas/gluon.webp"
+    "../assets/images/armas/gluon.webp"
   )
 );
 
@@ -122,7 +122,7 @@ listaArmas.agregarArma(
     "faster, but bees fly only straight forward",
     "Half life 1",
     "Alien hornet gun. Regenerating ammo automaticly up to 12 bees. Works underwater too.",
-    "../images/armas/hornet.jpg"
+    "../assets/images/armas/hornet.jpg"
   )
 );
 
@@ -134,7 +134,7 @@ listaArmas.agregarArma(
     "nothing",
     "Half life 1",
     "Can be placed everywhere on solid material.",
-    "../images/armas/tripmine.jpeg"
+    "../assets/images/armas/tripmine.jpeg"
   )
 );
 
@@ -147,7 +147,7 @@ listaCriaturas.agregarCriatura(
     "10",
     "Dientes",
     "Los Headcrab, son seres vivos omnívoros y parasitos.",
-    "../images/criaturas/Heacrab_HL2_Model.webp"
+    "../assets/images/criaturas/Heacrab_HL2_Model.webp"
   )
 )
 
@@ -159,36 +159,37 @@ listaCriaturas.agregarCriatura(
     "10",
     "Líquido tóxico Blanco, Patas delanteras, Generar Bebés Headcrab",
     "El Gonarch es la fase final del ciclo de vida de un Headcrab.",
-    "../images/criaturas/Gonarch.webp"
+    "../assets/images/criaturas/Gonarch.webp"
   )
 )
 
 
 export const imagenesArmas = [
-  "../images/armas/crossbow.jpg",
-  "../images/armas/crowbar.webp",
-  "../images/armas/gauss.webp",
-  "../images/armas/gluon.webp",
-  "../images/armas/snark.webp",
-  "../images/armas/grenade.jpeg",
-  "../images/armas/hornet.jpg",
-  "../images/armas/magnum.webp",
-  "../images/armas/mp5.webp",
-  "../images/armas/pistol.webp",
-  "../images/armas/shotgun.webp",
-  "../images/armas/tripmine.jpeg",
-
+  "../assets/images/armas/crossbow.jpg",
+  "../assets/images/armas/crowbar.webp",
+  "../assets/images/armas/gauss.webp",
+  "../assets/images/armas/gluon.webp",
+  "../assets/images/armas/snark.webp",
+  "../assets/images/armas/grenade.jpeg",
+  "../assets/images/armas/hornet.jpg",
+  "../assets/images/armas/magnum.webp",
+  "../assets/images/armas/mp5.webp",
+  "../assets/images/armas/pistol.webp",
+  "../assets/images/armas/shotgun.webp",
+  "../assets/images/armas/tripmine.jpeg",
+   
 ]
 
 
 export const imagenesCriaturas = [
   
 
-  "../images/criaturas/Alien_Grunt_HD_2.webp",
-  "../images/criaturas/Gargantua.webp",
-  "../images/criaturas/Gonarch.webp",
-  "../images/criaturas/Heacrab_HL2_Model.webp",
-  "../images/criaturas/Nihilanth.webp",
-  "../images/criaturas/Race_X.webp",
-  "../images/criaturas/Vortigaunt_HL_Alyx.webp",
+  "../assets/images/criaturas/Alien_Grunt_HD_2.webp",
+  "../assets/images/criaturas/Gargantua.webp",
+  "../assets/images/criaturas/Gonarch.webp",
+  "../assets/images/criaturas/Heacrab_HL2_Model.webp",
+  "../assets/images/criaturas/Nihilanth.webp",
+  "../assets/images/criaturas/Race_X.webp",
+  "../assets/images/criaturas/Vortigaunt_HL_Alyx.webp",
+
 ]
