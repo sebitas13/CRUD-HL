@@ -158,7 +158,7 @@ function defectoTarjeta(){
   contenido = `
     <form
       <div class="imagen-contenido">
-        <img src="../images/gordon2.jpeg" alt="">
+        <img src="../assets/images/gordon2.jpeg" alt="">
       </div>
 
     </form> 
