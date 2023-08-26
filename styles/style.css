@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-image: url('../images/half-life-tower.jpg');
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    position: 0;
+    padding: 0.5rem;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    padding: 0.1rem;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151515;
+    width: 100%;
+    list-style-type: none;
+    padding: 0.5rem 0;
+}
+
+header nav ul a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.a-imagen {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10rem;
+}
+
+header nav ul a img {
+    border-radius: 10rem;
+    border: 2px solid #fb7e14;
+    width: auto;
+}
+
+header nav ul a img:hover {
+    box-shadow: 1px 1px 4px 3px #dca575;
+}
+
+
+/* TABLA */
+
+section {
+    display: flex;
+    justify-content: center !important;
+    
+}
+
+section .middle {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.container-tabla{
+    
+    padding: 2rem;
+    width: 25vw;    
+    /* background-color: red; */
+    margin-right: 4rem;
+    margin-left: 0.5rem;
+    
+    
+}
+
+.container-tabla table {
+    border-collapse: collapse;
+}
+
+.container-tabla table th:first-child {
+    background-color: #FDBA32;
+    text-align: center;
+}
+
+.container-tabla table tr {
+
+    color: white;
+}
+
+.container-tabla table th {
+        
+    color: #151515;
+}
+
+.container-tabla table tr td {
+    padding: 0 2rem;
+    background-color: rgb(251, 126, 20,0.1);
+}
+
+.container-tabla table tbody tr:hover {
+    background-color: #fb7e14;
+}
+
+.container-informacion {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: green; */
+}
+
+
+
+.tarjeta-formulario {
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 1rem;
+    display: none;
+}
+
+.tarjeta-formulario form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.tarjeta-formulario form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+}
+
+
+.tarjeta-formulario form select,
+.tarjeta-formulario form textarea,
+.tarjeta-formulario form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;     
+    width: 70%;
+    padding: 0.7rem 0;
+    margin: 1rem 0;
+}
+
+.tarjeta-formulario p {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#add,
+#reg, 
+.tarjeta-formulario button p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container-tarjeta {
+    display: flex;
+    padding: 1rem;
+    
+    /* background-color: cornflowerblue; */
+}
+
+
+.container-tarjeta .tarjeta-imagenes {
+    display: flex;
+    display: none;
+}
+
+
+
+#imagen-cargada {
+    /* max-width: 200px;
+    max-height: 150px; */
+    width: 200px;
+    height: 150px;
+    background-color: white;
+}
+
+.imagenes {
+    /* background-color: greenyellow; */
+    padding: 1rem;
+}
+
+#lista-imagenes {
+    /* background-color: tomato; */
+    
+    overflow: auto;
+    height: 75vh;
+    /* display: none; */
+    /* max-width: 400px; 
+    max-height: 300px; */
+}
+
+#lista-imagenes img {
+    width: 120px;
+    height: 80px;
+}
+
+/* Tarjeta con la informacion */
+.tarjeta-contenido {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    /* background-color: crimson; */
+    width: 20rem;
+    height: 30rem;
+}
+
+
+.tarjeta-contenido .half-life {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(251, 128, 20, 0.05);
+    height: 70vh;
+}
+
+.tarjeta-contenido .half-life .informacion h4{
+    text-align: center;
+}
+
+.tarjeta-contenido .half-life .informacion p {
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .tarjeta-contenido .half-life .informacion h4,
+    .tarjeta-contenido .half-life .informacion p,
+    .tarjeta-contenido .half-life .informacion h6
+    {
+        
+        font-size: 0.6rem;
+    }
+
+    .tarjeta-contenido button {
+        font-size: 0.6rem;
+    }
+
+    .tarjeta-contenido .half-life  img {
+        width: 7.5rem;
+        height: 8rem;
+        /* background-color: red; */
+    }
+
+    .imagen-contenido {
+        opacity: 0.8;
+    }
+
+    #defecto{
+        opacity: 0.8;
+    }
+
+    .tarjeta-contenido {
+        
+        width: 10rem;
+        height: 21rem;
+    }
+
+    #add,
+    #reg,
+    .container-tabla {
+        
+        font-size: 0.6rem;
+    }
+
+    .container-tabla {
+        margin-right: 0;
+    }
+
+    #lista-imagenes img {
+        width: 60px;
+        height: 40px;    
+    }
+
+
+    /* Formulario */
+    .container-tarjeta .tarjeta-formulario option,
+    .container-tarjeta .tarjeta-formulario textarea,
+    .container-tarjeta .tarjeta-formulario input,
+    .container-tarjeta .tarjeta-formulario p{
+        font-size: 0.5rem;
+        
+    }
+
+    .container-tarjeta .tarjeta-formulario input {
+        padding: 0.2rem;
+    }
+
+    #imagen-cargada{
+        width: 6rem;
+        height: 5rem;
+    }
+
+    .container-tarjeta {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header h2 {
+        font-size: 0.6rem;
+    }
+
+    .a-imagen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .a-imagen img{
+        width: 50%;
+    }
+
+}
+
+
+button {
+    background-color: #FD495C;
+    cursor: pointer;
+    color: white;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0.1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.saga img,
+.personajes img{
+    width: 100%;
+    height: auto;
+}
