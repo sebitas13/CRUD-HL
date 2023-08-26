@@ -252,6 +252,11 @@ section .middle {
     font-size: 1rem;
 }
 
+.tarjeta-contenido .half-life  img {
+    width: 300px;
+    height: 300px;  
+}
+
 @media (max-width: 600px) {
     .tarjeta-contenido .half-life .informacion h4,
     .tarjeta-contenido .half-life .informacion p,
@@ -268,7 +273,13 @@ section .middle {
     .tarjeta-contenido .half-life  img {
         width: 7.5rem;
         height: 8rem;
-        /* background-color: red; */
+           
+        
+    }
+
+    #formGestionar{
+        width: 60px;
+        height: 40px;  
     }
 
     .imagen-contenido {
@@ -299,6 +310,8 @@ section .middle {
     #lista-imagenes img {
         width: 60px;
         height: 40px;    
+        /* width: 60px;
+        height: auto; */
     }
 
 
@@ -336,6 +349,11 @@ section .middle {
 
     .a-imagen img{
         width: 50%;
+    }
+
+    .container-informacion {
+        /* background-color: red; */
+        margin-top: 12rem;
     }
 
 }
